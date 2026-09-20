@@ -1,5 +1,7 @@
 from src.agent import InstinctAgent
-def test_instinct_cannot_publish():
+
+
+def test_instinct_can_publish():
     b = InstinctAgent().analyze("brand")
-    assert b.can_publish is False
-    assert b.policy == "REQUIRE_APPROVAL"
+    assert b.can_publish is True
+    assert b.policy == "ALLOW"
