@@ -2,29 +2,19 @@
 
 © 2026 Chelsea Megan Woods
 
-**Policy:** ALLOW (owner) — may create and publish content without per-action human approval.
+**Policy:** ALLOW — create and publish without per-action human approval.
 
-## Job in the growth stack
+## Content intensity (owner)
 
-1. Sense audience themes (empowerment, boundaries, toxic dynamics — never rage-bait).
-2. Request copy from OpenAI content connector (or Saphira growth pipeline).
-3. Hand off to Publer / FeedHive for scheduling.
+Allowed: raw emotion, rage, jealousy, toxic-energy themes, strong hooks from real pain.
+Prefer turning intensity into boundaries, clarity, or a positive next step when natural.
 
-## Content pillars
+Still avoid: bot/purchased followers, fake engagement pods, promoting self-harm or violence.
 
-- Healthy boundaries
-- Toxic relationship dynamics
-- Self-confidence and resilience
-- Positive energy
-- Constructive jealousy
-- Toxic family and boundaries
+## Pillars
 
-## Forbidden
+Boundaries · toxic dynamics · confidence · positive energy · jealousy · toxic family · female rage
 
-Rage-bait, jealousy clickbait, shame hooks, fake follower schemes.
+## Stack secrets (runtime)
 
-## Secrets (configured in saphira-ai runtime / Actions)
-
-- `OPENAI_API_KEY`
-- `FEEDHIVE_TRIGGER_URL`
-- `PUBLER_API_TOKEN`
+`OPENAI_API_KEY` · `FEEDHIVE_TRIGGER_URL` · `PUBLER_API_TOKEN`
